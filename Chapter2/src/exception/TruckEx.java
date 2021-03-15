@@ -17,9 +17,9 @@ public class TruckEx {
 		
 		
 		Truck truck2 = new Truck(6000);
-		System.out.println(truck2.getCC()); //과제 (2)번
+		System.out.println("truck2의 배기량은 "+truck2.getCC()+"cc입니다."); //과제 (2)번
 		
-		System.out.println(Truck.YEAR); //과제 (3)번
+		System.out.println("truck2의 재조년은 "+Truck.YEAR+"입니다."); //과제 (3)번
 	}
 
 }
