@@ -15,6 +15,8 @@ public class BookTest {
 		library[3] = new Book("태백산맥4","조정래");
 		library[4] = new Book("태백산맥5","조정래");
 		
+//		객체를 new한다고 끝이아니라 만들어서 하나하나 넣어줘야 한다.
+		
 		for(Book book : library) {
 			System.out.println(book);
 			book.showInfo();

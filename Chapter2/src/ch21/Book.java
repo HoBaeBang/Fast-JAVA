@@ -6,10 +6,12 @@ public class Book {
 	private String author;
 	
 	public Book() {}
+	
 	public Book(String title, String author) {
 		this.title = title;
 		this.author = author;
 	}
+	
 	
 	public String getTitle() {
 		return title;
@@ -27,4 +29,5 @@ public class Book {
 	public void showInfo() {
 		System.out.println(title+","+author);
 	}
+	
 }
