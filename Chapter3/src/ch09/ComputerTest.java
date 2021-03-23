@@ -6,7 +6,7 @@ public class ComputerTest {
 
 		Computer pc = new Desktop();
 //		Computer computer = new Computer();
-		
+		pc.display();
 			
 	}
 
