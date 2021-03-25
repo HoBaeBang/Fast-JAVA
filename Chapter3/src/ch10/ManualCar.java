@@ -10,7 +10,7 @@ public class ManualCar extends Car{
 	}
 
 	@Override
-	public void wiper() {	//»≈∏ﬁº≠µÂ
+	public void wiper()  {	//»≈∏ﬁº≠µÂ
 		
 	}
 
