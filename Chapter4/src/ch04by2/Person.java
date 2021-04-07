@@ -1,5 +1,5 @@
 package ch04by2;
-//Class class에 대해서 알아보며 동적로딩을 조금 알아보기
+//Class의 newInstance 사용해보기 위해서 만들어본 클래스
 
 public class Person {
 		
