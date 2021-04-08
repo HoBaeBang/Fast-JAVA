@@ -26,5 +26,5 @@ public class IfElseTest {
 		}
 		System.out.println("입장료는" + charge + "입니다.");
 	}
-
+ 
 }
