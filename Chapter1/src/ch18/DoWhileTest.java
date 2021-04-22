@@ -10,13 +10,13 @@ public class DoWhileTest {
 		int input;
 		int sum = 0;
 		
-		input = scanner.nextInt();
+		//input = scanner.nextInt();
 		
 		do {
 		input = scanner.nextInt();
 		sum += input;
 		
-		}while(input != 0);
+		}while(input != 0); //거짓일때 나감 참이면 do안에 있는내용을 돌린다.
 		
 		System.out.println(sum);
 	}
