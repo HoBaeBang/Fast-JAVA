@@ -3,7 +3,7 @@ package ch02;
 public class MyArray {
 
 	int[] intArr;   	//int array
-	int count;  		//개수
+	int count;  		//개수 처음에 잡은 이용량을 캐퍼서티 라고 한다.
 		
 	public int ARRAY_SIZE;
 	public static final int ERROR_NUM = -999999999;
@@ -15,14 +15,14 @@ public class MyArray {
 		intArr = new int[ARRAY_SIZE];
 	}
 	
-	public MyArray(int size)
+	public MyArray(int size)//오버로딩
 	{
 		count = 0;
 		ARRAY_SIZE = size;
 		intArr = new int[size];
 	}
 	
-	public void addElement(int num)
+	public void addElement(int num)//요소 추가하기
 	{
 		if(count >= ARRAY_SIZE){
 			System.out.println("not enough memory");
@@ -32,7 +32,7 @@ public class MyArray {
 				
 	}
 
-	public void insertElement(int position, int num)
+	public void insertElement(int position, int num)//요소 삽입
 	{
 		int i;
 		
