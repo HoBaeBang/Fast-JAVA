@@ -3,7 +3,7 @@ package ch02;
 public class MyArray {
 
 	int[] intArr;   	//int array
-	int count;  		//개수 처음에 잡은 이용량을 캐퍼서티 라고 한다.
+	int count;  		//개수 처음에 잡은 이용량을 캐퍼서티 라고 한다. 엘리먼트 개수?
 		
 	public int ARRAY_SIZE;
 	public static final int ERROR_NUM = -999999999;
@@ -58,7 +58,7 @@ public class MyArray {
 	{
 		int ret = ERROR_NUM;
 		
-		if( isEmpty() ){
+		if( isEmpty() ){					//비어있으면 true를 반환하고 그에따라서 에러를 출력한다.
 			System.out.println("There is no element");
 			return ret;
 		}
