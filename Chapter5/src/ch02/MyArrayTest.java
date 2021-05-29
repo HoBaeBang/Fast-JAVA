@@ -15,6 +15,6 @@ public class MyArrayTest {
 		list.removeElement(1);
 		list.printAll();
 		
-	}
+	}   
 
 }
