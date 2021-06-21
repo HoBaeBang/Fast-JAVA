@@ -3,7 +3,7 @@ package ch02;
 public class MyArray {
 
 	int[] intArr;   	//int array
-	int count;  		//개수 처음에 잡은 이용량을 캐퍼서티 라고 한다. 엘리먼트 개수?
+	int count;  		//개수 처음에 잡은 이용량을 캐퍼서티 라고 한다. 엘리먼트 개수? 카운트 = index -1
 		
 	public int ARRAY_SIZE;
 	public static final int ERROR_NUM = -999999999;
@@ -19,7 +19,7 @@ public class MyArray {
 	{
 		count = 0;
 		ARRAY_SIZE = size;
-		intArr = new int[size];
+		intArr = new int[size];  
 	}
 	
 	public void addElement(int num)//요소 추가하기
@@ -63,7 +63,7 @@ public class MyArray {
 			return ret;
 		}
 		
-		if(position < 0 || position >= count ){  //index error
+		if(position < 0 || position >= count ){  //원하는 위치가 0보다 작거나 카운트 보다 크거ㅏ같을때
 			System.out.println("remove Error");
 			return ret;
 		}

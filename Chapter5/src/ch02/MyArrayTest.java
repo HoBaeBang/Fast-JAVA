@@ -1,3 +1,4 @@
+
 package ch02;
 
 public class MyArrayTest {
@@ -13,8 +14,7 @@ public class MyArrayTest {
 		list.addElement(5);
 		
 		list.removeElement(1);
-		list.printAll();
-		
+		list.printAll(); 
 	}   
-
 }
+

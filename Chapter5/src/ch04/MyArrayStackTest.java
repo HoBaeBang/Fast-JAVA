@@ -15,6 +15,10 @@ public class MyArrayStackTest {
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
 		System.out.println(stack.peek());
+		//스택 구조의 특징은 위로쌓는 느낌의 자료구조라는 점이고
+		//push, pop, peek을 이용해서 데이터를 다룬다
+		//push는 저장 기능을 담당하고 pop,peek은 정보를 가져오는데
+		//pop은 데이터를 가져오고 삭제하고 peek은 삭제하지 않고 가져오기만한다.
 	}
 
 }

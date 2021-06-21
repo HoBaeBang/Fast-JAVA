@@ -4,8 +4,8 @@ import ch02.MyArray;
 
 public class MyArrayStack {
 	
-	MyArray arrayStack;
-	int top;
+	MyArray arrayStack;	//stack을 구현하기 위해 이용할 배열변수를 선언
+	int top;			//stack은 위에 게속 쌓는다고 생각하면 되기때문에 Top을 알아야할 필요가 있따.
 	
 	
 	public MyArrayStack() {
