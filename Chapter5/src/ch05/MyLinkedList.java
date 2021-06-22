@@ -1,5 +1,7 @@
 package ch05;
 
+import ch05.MyListNode;
+
 public class MyLinkedList {
 
 	private MyListNode head;
