@@ -1,4 +1,4 @@
-package ch13.web.userinfo;
+package ch13.web.userinfo; //file을 써보고 인터페이스를 사용해 실행하기 위한main이 포함된 클래스
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -25,7 +25,7 @@ public class UseInfoClient {
 		userInfo.setUserId("12345");
 		userInfo.setPassword("!@#$%");
 		userInfo.setUserName("Lee");
-		
+		 
 		
 		UserInfoDao userInfoDao = null;
 		

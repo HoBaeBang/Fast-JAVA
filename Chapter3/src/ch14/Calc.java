@@ -1,7 +1,7 @@
   
 package ch14;
 
-public interface Calc {
+public interface Calc { //인터페이스의 디폴트메서드 & 스테틱메서드
 
 	double PI = 3.14;
 	int ERROR = -99999999;
