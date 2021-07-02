@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MemberArrayList {
 	
-	private ArrayList<Member> arrayList;
+	public ArrayList<Member> arrayList;
 	
 	public MemberArrayList() {
 		arrayList = new ArrayList<>();
@@ -35,5 +35,6 @@ public class MemberArrayList {
 		for(Member member : arrayList) {
 			System.out.println(member);
 		}
+		System.out.println();
 	}
 }
