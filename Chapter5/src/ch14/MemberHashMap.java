@@ -37,6 +37,7 @@ private HashMap<Integer, Member> hashMap;
 			System.out.println(member);
 		}	
 		System.out.println();
+		
 	}
 
 }
